@@ -10,6 +10,9 @@
     "engines": {
         "vscode": "^1.64.0"
     },
+	"activationEvents": [
+		"onLanguage:properties-alternative"
+	],
     "categories": [
         "Programming Languages"
     ],
