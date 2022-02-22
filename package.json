@@ -1,7 +1,7 @@
 {
     "name": "properties-language-alternative",
-    "displayName": "properties-language-alternative",
-    "description": "",
+    "displayName": "Alternative Properties Language",
+    "description": "Alternative syntax highlighting for .properties",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.64.0"
