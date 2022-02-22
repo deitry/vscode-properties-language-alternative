@@ -1,0 +1,25 @@
+{
+    "name": "properties-language-alternative",
+    "displayName": "properties-language-alternative",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "properties-alternative",
+            "aliases": ["Properties (alt.)", "properties-alternative"],
+            "extensions": [".properties"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "properties-alternative",
+            "scopeName": "source.properties.alt",
+            "path": "./syntaxes/properties-alternative.tmLanguage.json"
+        }]
+    }
+}
