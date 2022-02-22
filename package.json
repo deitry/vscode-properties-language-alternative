@@ -1,5 +1,9 @@
 {
     "name": "properties-language-alternative",
+    "publisher": "deitry",
+    "repository": {
+        "url": "https://github.com/deitry/vscode-properties-language-alternative"
+    },
     "displayName": "Alternative Properties Language",
     "description": "Alternative syntax highlighting for .properties",
     "version": "0.0.1",
