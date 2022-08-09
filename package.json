@@ -6,7 +6,7 @@
     },
     "displayName": "Alternative Properties Language",
     "description": "Alternative syntax highlighting for .properties",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.64.0"
     },
@@ -15,15 +15,15 @@
     ],
     "contributes": {
         "languages": [{
-            "id": "properties-alternative",
+            "id": "dosini",
             "aliases": ["Properties (alt.)", "properties-alternative", "dosini"],
             "extensions": [".properties"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
-            "language": "properties-alternative",
+            "language": "dosini",
             "scopeName": "source.properties.alt",
-            "path": "./syntaxes/properties-alternative.tmLanguage.json"
+            "path": "./syntaxes/dosini.tmLanguage.json"
         }]
     }
 }
