@@ -6,7 +6,7 @@
     },
     "displayName": "Alternative Properties Language",
     "description": "Alternative syntax highlighting for .properties",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.64.0"
     },
@@ -19,7 +19,7 @@
     "contributes": {
         "languages": [{
             "id": "properties-alternative",
-            "aliases": ["Properties (alt.)", "properties-alternative"],
+            "aliases": ["Properties (alt.)", "properties-alternative", "dosini"],
             "extensions": [".properties"],
             "configuration": "./language-configuration.json"
         }],

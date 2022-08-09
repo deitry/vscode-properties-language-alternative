@@ -4,6 +4,10 @@ All notable changes to the "properties-language-alternative" extension will be d
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [0.0.2]
+
+- Add `dosini` alias (see https://github.com/deitry/vscode-properties-language-alternative/issues/2)
+
+## [0.0.1]
 
 - Initial release
